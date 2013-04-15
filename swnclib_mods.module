@@ -1,0 +1,15 @@
+<?php // for emacs: -*- mode: php;-*-
+
+/**
+ * Creates link for uploading a document.
+ */
+function swnclib_mods_upload_new_document_link($type) {
+  return sprintf('add/portal-document-file?edit[field_category][und]=%1s', $type);
+}
+
+/**
+ * Creates link for uploading a image.
+ */
+function swnclib_mods_upload_new_image_link($type) {
+  return sprintf('add/portal-image-file?edit[field_image_category][und]=%1s', $type);
+}

@@ -1,0 +1,3 @@
+name = "SWNC Lib Mods"
+description = "Miscellaneous Custom Modifications for the SWNC Region A Site"
+core = "7.x"
